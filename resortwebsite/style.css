@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+ #frist{
+    color: #d4af37;
+}
+nav{
+    height: 70px;
+}
+.one{
+    background-image: url(./images/frist.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 1.1;
+}
+ button{
+    border: 0;
+    outline: none;
+    background-color: #d4af37;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.one .frist{
+    padding: 150px 150px;
+    color: #fff;
+}
+.line{
+    border-bottom: 1px solid #d4af37;
+    width: 110px;
+}
+i{
+    color: #d4af37;
+}
+.line2{
+    border-bottom: 1px solid #d4af37;
+  position: absolute;
+  left: 40rem;
+   width: 110px;
+}
+footer{
+    background: #241e09;
+    height: auto;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    font-size: 22px;
+     cursor: pointer;
+    box-shadow:  0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup{
+    background-color: white;
+   width: 400px;
+   text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    position: absolute;
+    margin-top: 250px;
+    top: 0px;
+    left: 80%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+    
+}
+.open-popup{
+    visibility: visible;
+    top: 150%;
+    transform: translate(-50%,-50%) scale(1);
+    background-color: #ede4c5 m m ,m;
+    border-radius: 10px;
+
+} 
+.popup img{
+    width: 100px;
+    margin-top: -60px;
+    border-radius: 50%;
+    box-shadow:  0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h1{
+margin: 10px;
+padding-top: 20px;
+font-size:30px;
+font-weight: 500px;
+
+}
+.popup .btn2{
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    font-size: 22px;
+    background-color: rgb(80, 222, 80);
+    box-shadow:  0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
